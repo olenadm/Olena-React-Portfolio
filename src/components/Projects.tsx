@@ -12,12 +12,12 @@ const Projects: React.FC = () => {
       <Row>
         <Col md={{ span: 10, offset: 1 }}>
           <hr className="col-3 mb-5 mx-0" />
-          <h2 className="mb-5">0.2. Some Things I&lsquo;ve Done</h2>
+          <h2 className="mb-md-5 mb-3">0.2. Some Things I&lsquo;ve Done</h2>
 
           {allProjects.map((project, index: number) => {
             return (
               <Row className="project" key={project.id}>
-                <Col sm={7} xs={{ order: index % 2 ? "last" : "first" }}>
+                <Col xs={{ order: "last" }} sm={7} md={{ order: index % 2 ? "last" : "first" }}>
                   <div className="project-image">
                     <Link href={project.url}>
                       <div className="img">
@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
                   </div>
                 </Col>
                 <Col sm={5} className="project-content">
-                  <h3 className="project-title mb-3 mt-1">
+                  <h3 className="project-title mb-3 mt-3">
                     <a href={project.url}>{project.title}</a>
                   </h3>
                   <div className="project-description">

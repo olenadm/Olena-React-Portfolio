@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
 
-      <body className="demo-2 loading position-relative">
+      <body>
         <Main />
 
         <NextScript />

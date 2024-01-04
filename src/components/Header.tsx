@@ -3,7 +3,7 @@ import { ArrowRight } from "react-feather";
 
 const Header: React.FC = () => {
   return (
-    <header className="py-2 mb-3 fixed-top">
+    <header className="py-2 mb-3 sticky-top">
       <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <Link
           href="/"
