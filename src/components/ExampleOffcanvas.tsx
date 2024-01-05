@@ -33,7 +33,7 @@ const ExampleOffcanvas: React.FC<ExampleOffcanvasProps> = ({ className }) => {
               <div className="wrapper mx-auto">
                 <Image
                   alt="Olena"
-                  src="/img/Olena.jpg"
+                  src="/img/Olena-sml.jpg"
                   width={120}
                   height={120}
                 />
