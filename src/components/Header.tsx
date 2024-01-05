@@ -30,7 +30,7 @@ const Header: React.FC = () => {
           </li>
         </ul>
         <a
-          href="#"
+          href="/OlenaDmytrenko.pdf"
           target="_blank"
           rel="noopener"
         >

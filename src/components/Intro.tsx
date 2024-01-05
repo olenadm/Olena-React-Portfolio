@@ -4,8 +4,8 @@ import { Col, Row } from "react-bootstrap";
 
 const Intro: React.FC = () => {
   return (
-    <section className="h-100 intro d-flex align-items-center">
-      <div className="align-self-center">
+    <section className="h-100 intro">
+      <div>
       <Row>
         <Col md={{ span: 10, offset: 1 }}>
           <span className="mt-md-5 d-block hi mb-3 fs-6">Hi, my name is</span>

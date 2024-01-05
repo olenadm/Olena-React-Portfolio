@@ -17,7 +17,7 @@ const ExampleOffcanvas: React.FC<ExampleOffcanvasProps> = ({ className }) => {
       <Row>
         <Col md={{ span: 10, offset: 1 }}>
           <Button onClick={() => setShow((s) => !s)} className={className}>
-            About me
+            About me <ArrowRight/>
           </Button>
           <hr className="col-3 mt-5 mx-0" />
         </Col>
@@ -54,7 +54,7 @@ const ExampleOffcanvas: React.FC<ExampleOffcanvasProps> = ({ className }) => {
               <li>Next.js</li>
               <li>WordPress</li>
             </ul>
-            <Button href="#" target="_blank" rel="noopener" className="btn-primary btn mt-3">
+            <Button href="/OlenaDmytrenko.pdf" target="_blank" rel="noopener" className="btn-primary btn mt-3">
              My Résumé <ArrowRight />
             </Button>
           </div>

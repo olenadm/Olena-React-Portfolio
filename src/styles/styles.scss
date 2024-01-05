@@ -16,7 +16,6 @@ $bs-btn-font-weight-lg: 300;
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&family=Roboto+Slab:wght@300;400&display=swap");
 body {
-  padding: 0 1.5rem;
   background-color: $navy;
   background: rgb(36, 29, 65);
   background: linear-gradient(
@@ -173,7 +172,7 @@ header .fs-4 {
   border-radius: $border-radius;
   background-color: $light-navy;
   color: $light;
-  font-size: 14px;
+  font-size: 15px;
 }
 .project-description:hover,
 .project-description:focus-visible {
@@ -210,7 +209,7 @@ header .fs-4 {
 }
 
 .project-links {
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .project-links a {
@@ -290,6 +289,7 @@ ul.skills-list {
     position: relative;
     padding-left: 30px;
     margin-bottom: 10px;
+    font-size: 15px;
   }
   li::before {
     content: "▹";
@@ -511,7 +511,7 @@ ul.skills-list li {
     font-size: 2.2rem;
     line-height: 0.9;
   }
- 
+
   .project {
     margin-bottom: 80px;
   }
@@ -527,7 +527,6 @@ ul.skills-list li {
   .project-tech-list li {
     font-size: 13px;
   }
-
 }
 
 @media (min-width: 1200px) {
