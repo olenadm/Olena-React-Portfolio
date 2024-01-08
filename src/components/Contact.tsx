@@ -7,7 +7,7 @@ export default function Contact() {
       <Row>
         <Col md={{ span: 10, offset: 1 }}>
           <h2 className="mb-md-5 mb-3">0.3. What's Next?</h2>
-          <p>Think I can help?</p>
+          <p>Don't be shy! Feel free to get in touch.</p>
           <Button
             className="btn btn-primary btn-lg mt-4 mb-5"
             href="mailto:olenad@gmail.com"
