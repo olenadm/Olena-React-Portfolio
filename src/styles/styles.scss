@@ -516,7 +516,13 @@ ul.skills-list li {
 
   .project {
     margin-bottom: 80px;
+
+    
   }
+  .project:last-child{
+    margin-bottom:0;
+  }
+
   section.blocks {
     padding: 80px 0 0;
   }
