@@ -1,7 +1,7 @@
 import { Col, Row } from "react-bootstrap";
 import Image from "next/image";
 import Link from "next/link";
-import { ExternalLink, GitHub} from "react-feather";
+import { ExternalLink, GitHub } from "react-feather";
 import { getAllProjectData } from "@/pages/api/hello";
 
 const allProjects = getAllProjectData();
@@ -17,7 +17,11 @@ const Projects: React.FC = () => {
           {allProjects.map((project, index: number) => {
             return (
               <Row className="project" key={project.id}>
-                <Col xs={{ order: "last" }} sm={7} md={{ order: index % 2 ? "last" : "first" }}>
+                <Col
+                  xs={{ order: "last" }}
+                  sm={7}
+                  md={{ order: index % 2 ? "last" : "first" }}
+                >
                   <div className="project-image">
                     <Link href={project.url}>
                       <div className="img">
@@ -45,13 +49,15 @@ const Projects: React.FC = () => {
                     })}
                   </ul>
                   <div className="project-links">
-                    {project.git && <a
-                      href={project.git}
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      <GitHub size={18} />
-                    </a>}
+                    {project.git && (
+                      <a
+                        href={project.git}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <GitHub size={18} />
+                      </a>
+                    )}
                     <a
                       href={project.url}
                       rel="noopener noreferrer"
@@ -64,6 +70,25 @@ const Projects: React.FC = () => {
               </Row>
             );
           })}
+          <h3 className="my-3">Some more happy clients:</h3>
+          <ul className="skills-list">
+            <li>
+              <Link href="https://www.fatpromotions.co.uk/">FatPromotions</Link>
+            </li>
+            <li>
+              <Link href="https://www.bioxsystems.com">BioxSystems LTD</Link>
+            </li>
+            <li>
+              <Link href="https://birbeckswoodwork.co.uk/">
+                Birbeckswoodwork.co.uk
+              </Link>
+            </li>
+            <li>
+              <Link href="https://www.erosioncompliance.com/">
+                Erosion Compliance
+              </Link>
+            </li>
+          </ul>
         </Col>
       </Row>
     </section>
