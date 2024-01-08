@@ -35,8 +35,8 @@ a {
   position: relative;
   transition: $transition;
 }
-a:hover,
-a:focus {
+a:hover
+ {
   color: $success;
 }
 
@@ -223,10 +223,12 @@ header .fs-4 {
   background-color: $success;
   border-radius: 0;
   border-color: $success;
+  color:#fff;
 }
 .btn-primary:hover {
   background-color: $success-hover;
   border-color: $success-hover;
+  color:#fff;
 }
 
 .nav-link {

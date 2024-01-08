@@ -24,7 +24,7 @@ const Header: React.FC = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="nav-link px-3">
+            <a href="#contact" className="nav-link px-3">
               03.Contact
             </a>
           </li>
