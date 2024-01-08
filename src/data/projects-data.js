@@ -13,13 +13,13 @@ export const PROJECT_DATA =  [
     },
     {
       id: "1",
-      url: "https://lucent-lolly-15f9c4.netlify.app/",
-      git: `${GIT_URL}/Nitro`,
-      title: "Filtered Tree List",
-      img_url: "/img/react-ui-2.png",
-      tech: ["React.JS", "Next.JS", "Bootstrap"],
+      url: "https://serenonline.org/",
+      git: ``,
+      title: "UI for Seren Case Management System",
+      img_url: "/img/d-1.png",
+      tech: ["React.JS", "ASPX.net", "Bootstrap"],
       description:
-        "Display posts on a tree view (expandable accordion), where posts are grouped by posting week. Clicking on each element, the user can see all details and a form where 'location' and 'author' fields can be edited. User can change the grouping type of the list. So instead of having a tree grouped by weeks, it could group it by 'author' or 'location'.",
+        "Developed UI for SEREN - online case management system for practitioners and teams to manage individual and group support work in the advocacy, community, or private sector.",
     },
     {
       id: "2",

@@ -45,13 +45,13 @@ const Projects: React.FC = () => {
                     })}
                   </ul>
                   <div className="project-links">
-                    <a
+                    {project.git && <a
                       href={project.git}
                       rel="noopener noreferrer"
                       target="_blank"
                     >
                       <GitHub size={18} />
-                    </a>
+                    </a>}
                     <a
                       href={project.url}
                       rel="noopener noreferrer"
