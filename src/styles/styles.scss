@@ -35,8 +35,7 @@ a {
   position: relative;
   transition: $transition;
 }
-a:hover
- {
+a:hover {
   color: $success;
 }
 
@@ -223,12 +222,12 @@ header .fs-4 {
   background-color: $success;
   border-radius: 0;
   border-color: $success;
-  color:#fff;
+  color: #fff;
 }
 .btn-primary:hover {
   background-color: $success-hover;
   border-color: $success-hover;
-  color:#fff;
+  color: #fff;
 }
 
 .nav-link {
@@ -380,14 +379,14 @@ ul.skills-list li {
 .about .wrapper:focus::after {
   transform: translate(8px, 8px);
 }
-
+.slider-thumb {
+  overflow: hidden;
+}
 .slider-thumb::before {
   position: absolute;
   content: "";
   left: 10%;
   top: 100px;
-  width: 600px;
-  height: 600px;
   background: $light-navy;
   border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
   will-change: border-radius, transform, opacity;
@@ -395,7 +394,7 @@ ul.skills-list li {
   display: block;
   z-index: -1;
   -webkit-animation: sliderShape 5s linear infinite;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .slider-thumb-3::before {
@@ -480,6 +479,11 @@ ul.skills-list li {
   section.blocks {
     padding: 70px 0 0;
   }
+
+  .slider-thumb::before {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -504,6 +508,10 @@ ul.skills-list li {
 }
 
 @media (min-width: 992px) {
+  .slider-thumb::before {
+    width: 600px;
+    height: 600px;
+  }
   header {
     padding: 0 50px;
   }
@@ -517,11 +525,9 @@ ul.skills-list li {
 
   .project {
     margin-bottom: 80px;
-
-    
   }
-  .project:last-child{
-    margin-bottom:0;
+  .project:last-child {
+    margin-bottom: 0;
   }
 
   section.blocks {
