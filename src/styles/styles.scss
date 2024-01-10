@@ -395,6 +395,7 @@ ul.skills-list li {
   display: block;
   z-index: -1;
   -webkit-animation: sliderShape 5s linear infinite;
+  overflow:hidden;
 }
 
 .slider-thumb-3::before {
