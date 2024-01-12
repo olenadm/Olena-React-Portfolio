@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Intro from "@/components/Intro";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
+import Socials from "@/components/Socials";
 
 export default function Home() {
   return (
@@ -27,6 +28,8 @@ export default function Home() {
         <Projects />
 
         <Contact />
+
+        <Socials/>
 
         <Footer />
         <div className="slider-thumb"></div>

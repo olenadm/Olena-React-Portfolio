@@ -255,6 +255,38 @@ header .fs-4 {
   color: $success-hover;
   font-weight: 300;
 }
+.side {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  right: auto;
+  z-index: 10;
+  color: $light;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: $light;
+}
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+
+  li a {
+    padding: 10px;
+    transition: $transition;
+  }
+}
 
 footer {
   font-family: $mono;

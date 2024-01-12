@@ -1,4 +1,4 @@
-const GIT_URL = "https://github.com/olenadm";
+export const GIT_URL = "https://github.com/olenadm";
 
 export const PROJECT_DATA =  [
     {
