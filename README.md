@@ -1,4 +1,4 @@
-## Olena's personal portfolio built with Next.JS/React and Bootstrap
+## Olena's personal portfolio
 
 ### Technologies
 Project is created with:
@@ -7,7 +7,7 @@ Project is created with:
 * Next.js
 
 ### Functionality
-* Personal Portfolio
+*  Olena's personal portfolio built with Next.JS/React and Bootstrap
 
 
 
