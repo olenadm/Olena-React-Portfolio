@@ -1,4 +1,4 @@
-## Olena's personal portfolio
+## Olena's personal portfolio built with Next.JS/React and Bootstrap
 
 ### Technologies
 Project is created with:
