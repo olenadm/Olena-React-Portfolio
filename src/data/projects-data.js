@@ -1,6 +1,16 @@
 export const GIT_URL = "https://github.com/olenadm";
 
 export const PROJECT_DATA =  [
+  {
+    id: "3",
+    url: "https://zesty-crepe-196c2d.netlify.app/",
+    git: `${GIT_URL}/yourgitprofile`,
+    title: "Git Profile",
+    img_url: "/img/git.jpg",
+    tech: ["React.JS", "Next.JS", "Grid CSS"],
+    description:
+      "My take on a git profile view with CSS grid and without use of media queries.  We're capable of doing more and more with fewer lines of code  and without writing a single @media rule. But, what should I say... media queries are not dead.  We should use media queries to fix our layout when it breaks, rather than targeting devices.",
+  },
     {
       id: "0",
       url: "https://lucent-lolly-15f9c4.netlify.app/",
