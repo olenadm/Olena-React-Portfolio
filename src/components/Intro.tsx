@@ -12,7 +12,7 @@ const Intro: React.FC = () => {
           <h1 className="mb-2 mt-1">Olena Dmytrenko</h1>
           <h2>Experienced Front-End Developer</h2>
           <p className="fs-5 mt-4">
-            Passionate building beautiful digital experiences. <br />
+            Passionate about building beautiful digital experiences. <br />
             Currently, as a freelance developer, I&lsquo;m focused on building
             accessible, human-centered products.
           </p>
