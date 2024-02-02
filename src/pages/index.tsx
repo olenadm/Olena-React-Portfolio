@@ -7,6 +7,7 @@ import Intro from "@/components/Intro";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
 import Socials from "@/components/Socials";
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <GoogleAnalytics gaId="G-0WBTPTKMNK" />
+
       <Header />
       
 
