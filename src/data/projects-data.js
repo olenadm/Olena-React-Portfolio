@@ -2,6 +2,16 @@ export const GIT_URL = "https://github.com/olenadm";
 
 export const PROJECT_DATA =  [
   {
+    id: "4",
+    url: "https://main--jocular-mousse-e6bef3.netlify.app/",
+    git: `${GIT_URL}/Hacker-News_nextjs-framer-motion`,
+    title: "Hacker News with Next.js dynamic routs and React FramerMotion",
+    img_url: "/img/hn.jpg",
+    tech: ["React.JS", "Next.JS", "Bootstrap CSS", "FramerMotion"],
+    description:
+      "Making use of HackerNews API to display 3 types of stories in a Next.js dynamic rout, which are transitioned using FramerMotion library",
+  },
+  {
     id: "3",
     url: "https://zesty-crepe-196c2d.netlify.app/",
     git: `${GIT_URL}/yourgitprofile`,
